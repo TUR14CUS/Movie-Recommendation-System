@@ -11,11 +11,11 @@ Code Breakdown:
 
 ## Data Preparation:
 
-Import libraries: pandas for data manipulation, sklearn.feature_extraction.text for TF-IDF, sklearn.metrics.pairwise for similarity, and surprise for CF.
+Import libraries: pandas for data manipulation, sklearn.feature_extraction.text for TF-IDF, sklearn.metrics.pairwise for similarity, and surprise for CF.###
 Read data: Load movies, credits, and ratings.
 Filter movies: Keep movies with sufficient votes using quantiles (m) and average rating (C).
 Calculate weighted rating: Combine vote count and average rating to prioritize popular and well-rated movies.
-Content-Based Recommendations:
+### Content-Based Recommendations:
 
 Preprocess overview: Fill missing overview text and create TF-IDF matrix.
 Compute similarity: Calculate pairwise movie similarities using linear kernel similarity.
